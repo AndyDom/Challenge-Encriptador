@@ -1,0 +1,120 @@
+*{
+    background: #F3F5FC;
+}
+
+main{
+    margin: 0 10%; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+    position: relative;
+    bottom: 13em; 
+}
+
+.caja-texto{
+    position: relative;
+    width: 25em;
+    height: 11em;
+    top: 4em;
+    font-size: 2em;
+    color: #0A3871;
+    border: none;
+    outline: none;
+}
+
+#reglas{
+    position: relative;
+    left: 8em;
+    top: 12.8em;
+}
+
+.botones{
+    position: relative;
+    left: 8em;
+    top: 13.8em;
+}
+
+.boton{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 1.5em;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton:active{
+    transform: scale(1.1);
+}
+
+#encriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+    border-color: #0A3871;
+}
+
+#desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    border-color: #0A3871;
+}
+
+.cajaResultados li{
+    background: #FFFFFF;
+}
+
+.contenido{
+    background: #FFFFFF;
+}
+.cajaResultados {
+    position: relative;
+    text-align: center;
+    width: 24em;
+    height: 36.3em;
+    left: 53em;
+    bottom: 22em;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px --8px rgba(0, .0 , 0, 0.08);
+    border-radius: 32px;
+}
+
+.texto-procesado{
+    width: 13em;
+    height: 12.6em;
+    margin: 1.5em 0 5em;
+    background: #FFFFFF;
+    color: #0A3871;
+    font-size: 2em;
+    border: none;
+    outline: none;
+}
+
+.creador{
+    position: relative;
+   text-align: center;
+   top: 40em;
+    
+}
+
+/*CSS SIN TEXTO*/
+
+.munheco{
+    margin: 23% 0 2%;
+    background: #FFFFFF;
+}
+
+.aviso{
+    background: #FFFFFF;
+    color: #343440;
+    font-size: 1.8em;
+    margin: 0 2.3em 4% 2.3em;
+}
+
+.ingreseTexto{
+    background: #FFFFFF;
+    color: #495057;
+    font-size: 1.2em;
+    margin: 0 2.3em 0 2.3em;
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		<title>Encriptador de Texto</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">">
+    </head>
+
+    <body>
+        <main>
+            <img id="logo" src="imagenes/Logo.png" alt="Logo">
+            <textarea type="text" class="caja-texto" cols="40" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+            <h6 id="reglas"><img src="imagenes/Vector.png" alt="vector"> Solo letras minusculas y sin acentos</h6>
+
+            <div class="botones">
+                <button class="boton" id="encriptar" type="button" onclick = "botonEncriptar()">Encriptador</button>
+                <button class="boton" id="desencriptar" type="button" onclick="botonDesencriptar()">Desencriptador</button>
+            </div>
+
+            <ul class="cajaResultados">
+                <li class="contenido">
+                    <img class="munheco" src="imagenes/Muñeco.png">
+                    <h2 class="aviso">Ningún mensaje fue encontrado</h2>
+                    <p class="ingreseTexto">Ingresa el texto que desees encriptar o desencriptar. </p>                
+                </li>
+            </ul>
+        </main>
+    </body>
+    <script src="js/encriptar.js"></script>
+    <script src="js/desencriptar.js"></script>
+    <script src="js/copiar.js"></script>
+</html>
